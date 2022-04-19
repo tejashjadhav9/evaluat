@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="eval3style.css">
+</head>
+
+<body>
+  <form action="datadisplay.html" id="myform">
+    <div class="credintials">
+
+      <label for="fname">First name </label><br>
+      <input type="text" name="fname" id="fname"><br><br>
+
+      <label for="lname">Last name </label><br>
+      <input type="text" name="lname" id="lname"><br><br>
+
+      <label for="email">E mail</label><br>
+      <input type="text" name="email" id="email"><br><br>
+
+      <label for="age">Age</label><br>
+      <input type="text" name="age" id="age"><br><br>
+
+    </div>
+
+    <input type="checkbox" name="nxtdaypick" id="nxtdaypick" value="Next Day Pickup Configuration">
+    <label style="font-size: 20px;" for="nxtdaypick">Next Day Pickup Configuration</label>
+    <p style="margin-left: 20px;margin: -3px; margin-top: 5px; ">Set Next-day Pick-up time
+    <p>
+
+
+    <table>
+      <tr>
+        <td><input class="maindisable" type="checkbox" name="Sunday" id="Sunday" disabled="disabled" value="Sunday">
+          <label for="Sunday">Sunday</label>
+        </td>
+        <td><select id="SundayDrpdown" class="ime " name="ime" disabled="disabled">
+            <option value=" ">Select-Pickup-Time</option>
+            <option value="Sunday     00.00">00:00</option>
+            <option value="Sunday     01:00">01:00</option>
+            <option value="Sunday     02:00">02:00</option>
+            <option value="Sunday     03:00">03:00</option>
+            <option value="Sunday     04:00">04:00</option>
+            <option value="Sunday     05:00">05:00</option>
+            <option value="Sunday     06:00">06:00</option>
+            <option value="Sunday     07:00">07:00</option>
+            <option value="Sunday     08:00">08:00</option>
+            <option value="Sunday     09:00">09:00</option>
+            <option value="Sunday     10:00">10:00</option>
+            <option value="Sunday     11:00">11:00</option>
+            <option value="Sunday     12:00">12:00</option>
+            <option value="Sunday     13:00">13:00</option>
+            <option value="Sunday     14:00">14:00</option>
+            <option value="Sunday     15:00">15:00</option>
+            <option value="Sunday     16:00">16:00</option>
+            <option value="Sunday     17:00">17:00</option>
+            <option value="Sunday     18:00">18:00</option>
+            <option value="Sunday     19:00">19:00</option>
+            <option value="Sunday     20:00">20:00</option>
+            <option value="Sunday     21:00">21:00</option>
+            <option value="Sunday     22:00">22:00</option>
+            <option value="Sunday     23:00">23:00</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td><input class="maindisable" type="checkbox" name="Monday" id="Monday" value="Monday" disabled="disabled">
+          <label for="Monday">Monday</label>
+        </td>
+        <td><select id="MondayDrpdown" class="ime " name="ime" disabled="disabled">
+            <option value="">Select-Pickup-Time</option>
+            <option value="Monday            00.00">00:00</option>
+            <option value="Monday            01:00">01:00</option>
+            <option value="Monday            02:00">02:00</option>
+            <option value="Monday            03:00">03:00</option>
+            <option value="Monday            04:00">04:00</option>
+            <option value="Monday            05:00">05:00</option>
+            <option value="Monday            06:00">06:00</option>
+            <option value="Monday            07:00">07:00</option>
+            <option value="Monday            08:00">08:00</option>
+            <option value="Monday            09:00">09:00</option>
+            <option value="Monday            10:00">10:00</option>
+            <option value="Monday            11:00">11:00</option>
+            <option value="Monday            12:00">12:00</option>
+            <option value="Monday            13:00">13:00</option>
+            <option value="Monday            14:00">14:00</option>
+            <option value="Monday            15:00">15:00</option>
+            <option value="Monday            16:00">16:00</option>
+            <option value="Monday            17:00">17:00</option>
+            <option value="Monday            18:00">18:00</option>
+            <option value="Monday            19:00">19:00</option>
+            <option value="Monday            20:00">20:00</option>
+            <option value="Monday            21:00">21:00</option>
+            <option value="Monday            22:00">22:00</option>
+            <option value="Monday            23:00">23:00</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td><input class="maindisable" type="checkbox" name="Tuesday" id="Tuesday" value="Tuesday" disabled="disabled">
+          <label for="Tuesday">Tuesday</label>
+        </td>
+        <td><select id="TuesdayDrpdown" class="ime " name="ime" disabled="disabled">
+            <option value="">Select-Pickup-Time</option>
+            <option value="Tuesday           00.00">00:00</option>
+            <option value="Tuesday           01:00">01:00</option>
+            <option value="Tuesday           02:00">02:00</option>
+            <option value="Tuesday           03:00">03:00</option>
+            <option value="Tuesday           04:00">04:00</option>
+            <option value="Tuesday           05:00">05:00</option>
+            <option value="Tuesday           06:00">06:00</option>
+            <option value="Tuesday           07:00">07:00</option>
+            <option value="Tuesday           08:00">08:00</option>
+            <option value="Tuesday           09:00">09:00</option>
+            <option value="Tuesday           10:00">10:00</option>
+            <option value="Tuesday           11:00">11:00</option>
+            <option value="Tuesday           12:00">12:00</option>
+            <option value="Tuesday           13:00">13:00</option>
+            <option value="Tuesday           14:00">14:00</option>
+            <option value="Tuesday           15:00">15:00</option>
+            <option value="Tuesday           16:00">16:00</option>
+            <option value="Tuesday           17:00">17:00</option>
+            <option value="Tuesday           18:00">18:00</option>
+            <option value="Tuesday           19:00">19:00</option>
+            <option value="Tuesday           20:00">20:00</option>
+            <option value="Tuesday           21:00">21:00</option>
+            <option value="Tuesday           22:00">22:00</option>
+            <option value="Tuesday           23:00">23:00</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" class="maindisable" name="Wednesday" id="Wednesday" value="Wednesday"
+            disabled="disabled">
+          <label for="Wednesday">Wednesday</label>
+        </td>
+        <td><select id="WednesdayDrpdown" class="ime " name="ime" disabled="disabled">
+            <option value="">Select-Pickup-Time</option>
+            <option value="Wednesday          00.00">00:00</option>
+            <option value="Wednesday          01:00">01:00</option>
+            <option value="Wednesday          02:00">02:00</option>
+            <option value="Wednesday          03:00">03:00</option>
+            <option value="Wednesday          04:00">04:00</option>
+            <option value="Wednesday          05:00">05:00</option>
+            <option value="Wednesday          06:00">06:00</option>
+            <option value="Wednesday          07:00">07:00</option>
+            <option value="Wednesday          08:00">08:00</option>
+            <option value="Wednesday          09:00">09:00</option>
+            <option value="Wednesday          10:00">10:00</option>
+            <option value="Wednesday          11:00">11:00</option>
+            <option value="Wednesday          12:00">12:00</option>
+            <option value="Wednesday          13:00">13:00</option>
+            <option value="Wednesday          14:00">14:00</option>
+            <option value="Wednesday          15:00">15:00</option>
+            <option value="Wednesday          16:00">16:00</option>
+            <option value="Wednesday          17:00">17:00</option>
+            <option value="Wednesday          18:00">18:00</option>
+            <option value="Wednesday          19:00">19:00</option>
+            <option value="Wednesday          20:00">20:00</option>
+            <option value="Wednesday          21:00">21:00</option>
+            <option value="Wednesday          22:00">22:00</option>
+            <option value="Wednesday          23:00">23:00</option>
+          </select></td>
+      </tr>
+
+      <tr>
+        <td><input class="maindisable" type="checkbox" name="Thursday" id="Thursday" value="Thursday"
+            disabled="disabled">
+          <label for="Thursday">Thursday</label>
+        </td>
+        <td><select id="ThursdayDrpdown" class="ime " name="ime" disabled="disabled">
+            <option value="">Select-Pickup-Time</option>
+            <option value="Thursday           00.00">00:00</option>
+            <option value="Thursday           01:00">01:00</option>
+            <option value="Thursday           02:00">02:00</option>
+            <option value="Thursday           03:00">03:00</option>
+            <option value="Thursday           04:00">04:00</option>
+            <option value="Thursday           05:00">05:00</option>
+            <option value="Thursday           06:00">06:00</option>
+            <option value="Thursday           07:00">07:00</option>
+            <option value="Thursday           08:00">08:00</option>
+            <option value="Thursday           09:00">09:00</option>
+            <option value="Thursday           10:00">10:00</option>
+            <option value="Thursday           11:00">11:00</option>
+            <option value="Thursday           12:00">12:00</option>
+            <option value="Thursday           13:00">13:00</option>
+            <option value="Thursday           14:00">14:00</option>
+            <option value="Thursday           15:00">15:00</option>
+            <option value="Thursday           16:00">16:00</option>
+            <option value="Thursday           17:00">17:00</option>
+            <option value="Thursday           18:00">18:00</option>
+            <option value="Thursday           19:00">19:00</option>
+            <option value="Thursday           20:00">20:00</option>
+            <option value="Thursday           21:00">21:00</option>
+            <option value="Thursday           22:00">22:00</option>
+            <option value="Thursday           23:00">23:00</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td><input class="maindisable" type="checkbox" name="Friday" id="Friday" value="Friday" disabled="disabled">
+          <label for="Friday">Friday</label>
+        </td>
+        <td><select id="FridayDrpdown" class="ime " name="ime" disabled="disabled">
+            <option value="">Select-Pickup-Time</option>
+            <option value="Friday             00.00">00:00</option>
+            <option value="Friday             01:00">01:00</option>
+            <option value="Friday             02:00">02:00</option>
+            <option value="Friday             03:00">03:00</option>
+            <option value="Friday             04:00">04:00</option>
+            <option value="Friday             05:00">05:00</option>
+            <option value="Friday             06:00">06:00</option>
+            <option value="Friday             07:00">07:00</option>
+            <option value="Friday             08:00">08:00</option>
+            <option value="Friday             09:00">09:00</option>
+            <option value="Friday             10:00">10:00</option>
+            <option value="Friday             11:00">11:00</option>
+            <option value="Friday             12:00">12:00</option>
+            <option value="Friday             13:00">13:00</option>
+            <option value="Friday             14:00">14:00</option>
+            <option value="Friday             15:00">15:00</option>
+            <option value="Friday             16:00">16:00</option>
+            <option value="Friday             17:00">17:00</option>
+            <option value="Friday             18:00">18:00</option>
+            <option value="Friday             19:00">19:00</option>
+            <option value="Friday             20:00">20:00</option>
+            <option value="Friday             21:00">21:00</option>
+            <option value="Friday             22:00">22:00</option>
+            <option value="Friday             23:00">23:00</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td><input class="maindisable" type="checkbox" name="Saturday" id="Saturday" value="Saturday"
+            disabled="disabled">
+          <label for="Saturday">Saturday</label>
+        </td>
+        <td><select id="SaturdayDrpdown" class="ime " name="ime" disabled="disabled">
+            <option value="">Select-Pickup-Time</option>
+            <option value="Saturday           00.00">00:00</option>
+            <option value="Saturday           01:00">01:00</option>
+            <option value="Saturday           02:00">02:00</option>
+            <option value="Saturday           03:00">03:00</option>
+            <option value="Saturday           04:00">04:00</option>
+            <option value="Saturday           05:00">05:00</option>
+            <option value="Saturday           06:00">06:00</option>
+            <option value="Saturday           07:00">07:00</option>
+            <option value="Saturday           08:00">08:00</option>
+            <option value="Saturday           09:00">09:00</option>
+            <option value="Saturday           10:00">10:00</option>
+            <option value="Saturday           11:00">11:00</option>
+            <option value="Saturday           12:00">12:00</option>
+            <option value="Saturday           13:00">13:00</option>
+            <option value="Saturday           14:00">14:00</option>
+            <option value="Saturday           15:00">15:00</option>
+            <option value="Saturday           16:00">16:00</option>
+            <option value="Saturday           17:00">17:00</option>
+            <option value="Saturday           18:00">18:00</option>
+            <option value="Saturday           19:00">19:00</option>
+            <option value="Saturday           20:00">20:00</option>
+            <option value="Saturday           21:00">21:00</option>
+            <option value="Saturday           22:00">22:00</option>
+            <option value="Saturday           23:00">23:00</option>
+          </select></td>
+      </tr>
+    </table>
+
+    <!-- <button >Salva Modifiche</button> -->
+    <input type="submit" onclick="passvalue()">
+
+
+  </form>
+
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+  <script src="eval3script.js"></script>
+
+</body>
+
+</html>
