@@ -1,0 +1,43 @@
+form {
+    background-color: #e3eaef;
+    height: 1500px;
+    margin: 150px;
+    padding: 100px;
+    align-items: center;
+
+}
+
+.credintials {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+input[type=text] {
+    height: 30px;
+    font-size: 20px;
+}
+
+td {
+    font-size: 23px;
+    padding: 30px;
+    padding-right: 300px;
+}
+
+select {
+    height: 40px;
+    width: 200px;
+}
+
+input[type=submit] {
+    height: 50px;
+    width: 150px;
+    background-color: #6c757d;
+    color: white;
+    margin-left: 750px;
+    margin-top: 40px;
+}
+
+.fail-alert {
+    color: red;
+}
